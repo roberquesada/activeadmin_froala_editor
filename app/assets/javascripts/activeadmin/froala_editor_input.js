@@ -21,7 +21,7 @@ function initFroalaEditors() {
               buttonsVisible: 2
             },
             moreMisc: {
-              buttons: ['undo', 'redo', 'print'],
+              buttons: ['undo', 'redo', 'html'],
               align: 'right',
               buttonsVisible: 3
             }
