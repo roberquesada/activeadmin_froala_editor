@@ -26,7 +26,8 @@ function initFroalaEditors() {
               buttonsVisible: 3
             }
           },
-          quickInsertButtons: ['table', 'ol', 'ul', 'hr']
+          quickInsertButtons: ['table', 'ol', 'ul', 'hr'],
+          codeMirror: true
         };
         options = $.extend({}, options, $(this).data('options'));
         new FroalaEditor('.froala-editor[name="' + name + '"]', options);
